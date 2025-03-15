@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOPCURL</title>
+    <link rel="icon" type="image/x-icon" href="images/logo 12.png">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- font comforta link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <!-- DM sans font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+
+
+    <!-- Raleway font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <!-- monda font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="bg-black">
+
+    <!-- navbar section  -->
+
+    <div class="bg-[#37287B] rounded-b-lg max-w-screen-2xl">
+        <nav class="container h-16 flex py-2 px-4 sm:px-10 justify-between">
+            <div>
+                <img src="images/mainlogo.png" alt="" class="w-48 ">
+            </div>
+            <div class="my-auto ">
+                <ul class="hidden text-white text-xl space-x-36  lg:flex" style="font-family: 'DM Sans', sans-serif;">
+                    <li class="hover:text-[#DF484D] "><a href="index.html">Home</a></li>
+                    <li class="hover:text-[#DF484D] "><a href="events.html">Events</a></li>
+                    <li class="hover:text-[#DF484D] "><a href="aboutUs.html"><u>About Us</u></a></li>
+
+                </ul>
+            </div>
+            <div class="text-white text-xl my-auto hidden lg:block">
+                <button class="hover:text-[#DF484D]"><a href="contactUs.html">Contact Us</a></button>
+            </div>
+
+             <!-- Hamburger menu -->
+             <div class="">
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+
+            <div class="md:hidden">
+                <div id="menu"
+                    class="absolute flex-col items-center hidden self-end  py-8 mt-10 space-y-6 font-bold bg-[#37287B] text-white sm:w-auto sm:self-center top-8 left-6 right-6 drop-shadow-md list-none">
+                    <li class="hover:text-[#DF484D]"><a href="index.html">Home</a></li>
+
+                    <li class="hover:text-[#DF484D] "><a href="events.html">Events</a></li>
+
+                    <li class="hover:text-[#DF484D] "><a href="aboutUs.html"><u>About Us</u></a></li>
+
+                    <li><button class="hover:text-[#DF484D]"><a href="contactUs.html">Contact Us</a></button></li>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    
+
+    <!-- main section  -->
+    <div class="bg-black min-h-screen ">
+        <div class="mt-6">
+            <h1 class="text-white text-4xl text-center" style="font-family: 'Monda', sans-serif;">Meet the team..</h1>
+        </div>
+        <main class="container mx-auto lg:px-4 xl:px-0">
+            <div
+                class="mx-auto max-w-screen-xl grid-cols-2  sm:grid-cols-3 lg:grid-cols-4 grid xl:grid-cols-5 place-items-center mt-10 gap-y-4">
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/abhinav.jpg" alt="">
+                        </div>
+                    
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">ABHINAV K V</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( CODING )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/arjun.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">ARJUN</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( CODING & UI/UX )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/vaishnav.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">VAISHNAV</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( GRAPHICS )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/akashpv.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">AKASH P V</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/vinayak.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">VINAYAK</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <!-- <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">AUSWAF</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div> -->
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/akashsreedhar.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">AKASH SREEDHAR</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/abdu.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">ABDUL RAHMAN</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                    
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/abhishek.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">ABHISHEK</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/akshay.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">AKSHAY</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/eshwaran.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">ESHWARAPRASAD</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/navaneeth.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">NAVANEETH</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/srijil.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">SRIJIL SUNIL</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/anfas.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">ANFAS</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/adithyanravi.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">ADITHYAN RAVEENDRAN</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/george.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">GEORGE MATHEW</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/adithyanr.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">ADITHYAN R</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/haripriya.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">HARIPRIYA K T</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/devika.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">DEVIKA</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/nikhil.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">NIKHIL</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/hemanth.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">HEMANTH KUMAR</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/aswin2.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">ASHWINDAS</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/akhil.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">AKHIL</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/jabru.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">JABROOTH</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/nandu.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">NANDAKUMAR T P</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/anzar.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">ANZAR</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/vishnu.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">VISHNU VINOD</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+                <div>
+                    <div class="w-36 h-36 sm:w-40 sm:h-40 rounded-full bg-red-500 p-1">
+                        <div class="w-[134px] h-[134px] sm:w-[150px] sm:h-[150px] rounded-full bg-green-500 mx-auto">
+                            <img src="aboutusimages/sebin2.jpg" alt="">
+                        </div>
+                    </div>
+                    <h1 class="text-white text-center" style="font-family: 'Raleway', sans-serif;">SEBIN</h1>
+                    <h2 class="text-white text-center text-sm font-bold">( COORDINATOR )</h2>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </main>
+    </div>
+
+    <script src="aboutUs.js"></script>
+</body>
+
+</html>

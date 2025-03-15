@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOPCURL</title>
+    <link rel="icon" type="image/x-icon" href="images/logo 12.png">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <!-- alpine js script tag
+    <script src="//unpkg.com/alpinejs" defer></script> -->
+</head>
+
+<body class="bg-black">
+    <!-- nav bar section -->
+
+    <div class="bg-[#37287B] rounded-b-lg max-w-screen-2xl">
+        <nav class="container h-16 flex py-2 px-4 sm:px-10 justify-between">
+            <div>
+                <img src="images/mainlogo.png" alt="" class="w-48 ">
+            </div>
+            <div class="my-auto ">
+                <ul class="hidden text-white text-xl space-x-36  lg:flex" style="font-family: 'DM Sans', sans-serif;">
+                    <li class="hover:text-[#DF484D] "><a href="index.html">Home</a></li>
+                    <li class="hover:text-[#DF484D] "><a href="events.html">Events</a></li>
+                    <li class="hover:text-[#DF484D] "><a href="aboutUs.html">About Us</a></li>
+
+                </ul>
+            </div>
+            <div class="text-white text-xl my-auto hidden lg:block">
+                <button class="hover:text-[#DF484D]"><a href="contactUs.html">Contact Us</a></button>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container mx-auto flex h-screen">
+        <div class="w-2/6">
+            <div class="my-8 ">
+                <h1 class="ml-28 text-white text-4xl font-semibold tracking-wider">QUESTION BANK</h1>
+            </div>
+            <div class="w-72 h-60 border border-white grid grid-rows-4 px-2 mx-auto">
+                <div>
+                    <h1 class="text-white text-2xl font-bold text-center my-3" ><button >SEARCH</button></h1>
+                </div>
+                <div class="px-2.5">
+                    <select type="dr" class="text-white text-center w-full py-2 bg-stone-800 border-white border block mx-auto"
+                        placeholder="select course" >
+                        <option value="">BCA </option>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div class="px-2.5">
+                    <select type="dr" id="semester" class="text-white text-center w-full py-2 bg-stone-800 border-white border block mx-auto"
+                        placeholder="select semester">
+                        <option value="01">SEMESTER 01</option>
+                        <option value="02">SEMESTER 02</option>
+                        <option value="03">SEMESTER 03</option>
+                        <option value="04">SEMESTER 04</option>
+                        <option value="05">SEMESTER 05</option>
+                        <option value="06">SEMESTER 06</option>
+                    </select>
+                </div>
+                
+                <div class="flex justify-around  py-3.5">
+                    <button class="text-white bg-stone-800 rounded-md px-6 py-1 " id="search">SEARCH</button>
+                    <button class="text-white bg-stone-800 rounded-md px-6 py-1">RESET</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="w-4/6">
+            <table class="text-white text-center mx-auto mt-28 border border-white-2">
+                <thead >
+                    <tr class="border-separate border-b border-t border-white">
+                        <th class="w-60 py-2">SUBJECT</th>
+                        <th class="w-40 py-2">YEAR</th>
+                        <th class="w-60 py-2">DOWNLOADS</th>
+                    </tr>
+                </thead>
+                <tbody class="">
+                        <tr>
+                            <tr class=" sem1" >
+                                <td rowspan="4">C PROGRAMMING</td>
+                                <td>2019</td>
+                                <td><a href="https://drive.google.com/file/d/1Gn0A_ae6Xp4Pf_0P2B9UnTuY4tC4ZY0M/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class=" sem1">
+                                <td>2020</td>
+                                <td><a href="https://drive.google.com/file/d/1Gpf1nCwAorJVbs_DE2txmlgFg8GiJ18C/view?usp=sharing"  target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class=" sem1">
+                                <td>2021</td>
+                                <td><a href="https://drive.google.com/file/d/1GAzclkRyNoBVC1SS-NXHNeSu7039s7k7/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2">
+                            <tr class=" sem1" >
+                                <td rowspan="4">INFORMATICS</td>
+                                <td>2019</td>
+                                <td><a href="https://drive.google.com/file/d/1G_u-R4hHIcWIzti8HQvzj113SiVG3ABN/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class=" sem1">
+                                <td>2020</td>
+                                <td><a href="https://drive.google.com/file/d/1Glf-M_UMlQkK_bTS-aUSkBsg7fSXiCkx/view?usp=sharing"  target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class=" sem1">
+                                <td>2021</td>
+                                <td><a href="https://drive.google.com/file/d/1GWCyODMQ3hJCgK9q_JnDsmAFkNXK6a_4/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2">
+                            <tr class=" sem1" >
+                                <td rowspan="4">READINGS ON KERALA</td>
+                                <td>2019</td>
+                                <td><a href="https://drive.google.com/file/d/1pAKi5lIP8Hh9SXzDvTnLfVrNfuMvZbww/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class=" sem1">
+                                <td>2020</td>
+                                <td><a href="https://drive.google.com/file/d/1pE6t8ro_5lSslrH394MHWoAkZvNKNvQ5/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class=" sem1">
+                                <td>2021</td>
+                                <td><a href="https://drive.google.com/file/d/1pJBpe0t2n2U7al6rFutnaqPEkaVLc6zK/view?usp=sharing"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2">
+                            <tr class=" sem1" >
+                                <td rowspan="4">COMMUNICATIVE ENGLISH</td>
+                                <td>2019</td>
+                                <td><a href="https://drive.google.com/file/d/1nRrG9USryRVWTflXFm0cUJdJ2wZUOrv7/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class=" sem1">
+                                <td>2020</td>
+                                <td><a href="https://drive.google.com/file/d/1niNLM-0k-osFJ3cl7v29MsqfJlJ2u6ZT/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class=" sem1">
+                                <td>2021</td>
+                                <td><a href="https://drive.google.com/file/d/1nmbN0tuUqbnEfkQjGpg4lq7FQNAHzy0V/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2">
+                            <tr class=" sem1" >
+                                <td rowspan="4">HINDI</td>
+                                <td>2019</td>
+                                <td><a href="https://drive.google.com/file/d/1Ffo9Q3w0MjQyQPXlks6cwHNewEQu7x-P/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class=" sem1">
+                                <td>2020</td>
+                                <td><a href="https://drive.google.com/file/d/1p9rbMrU-pobMihKaNWADv3dOdDPzA7BV/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class=" sem1">
+                                <td>2021</td>
+                                <td><a href="https://drive.google.com/file/d/1BrmU8O6Xn_uuJvdKCAt792CLnS6qXa5Y/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2">
+                            <tr class=" sem1" >
+                                <td rowspan="3">MALAYALAM</td>
+                                <td>2019</td>
+                                <td><a href="https://drive.google.com/file/d/1Ga8bDhJHuN8Qg1LHGNPSTZ-UJHxJqWOv/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class=" sem1">
+                                <td>2020</td>
+                                <td><a href="https://drive.google.com/file/d/1GvPONcEVgOMD3GQPtpXRipWT_dSV9pE3/view?usp=sharing" target="_blank"><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+
+                        <!-- sem2 -->
+                        <tr>
+                            <tr class="hide sem2" >
+                                <td rowspan="4">OBJECT ORIENTED PROGRAMMING IN CPP</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem2">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem2">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem2" >
+                                <td rowspan="4">DIGITAL SYSTEMS</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem2">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem2">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem2" >
+                                <td rowspan="4">READINGS ON GENDER</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem2">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem2">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem2" >
+                                <td rowspan="4">READINGS ON LIFE AND NATURE</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem2">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem2">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem2" >
+                                <td rowspan="4">MALAYALAM-GADYAMATHRUKAKAL</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem2">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem2">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem2" >
+                                <td rowspan="4">HINDI-SAHITHYA AUR PRAYOG</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem2">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem2">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+
+                        <!-- sem3 -->
+                        <tr>
+                            <tr class="hide sem3" >
+                                <td rowspan="4">DATA STRUCTURE</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem3">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem3">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem3" >
+                                <td rowspan="4">DATABASE MANAGEMENT SYSTEM</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem3">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem3">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem3" >
+                                <td rowspan="4">MICROPROCESSOR</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem3">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem3">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem3" >
+                                <td rowspan="3">JAVA</td>
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem3">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+
+                        <!-- sem4 -->
+
+                        <tr>
+                            <tr class="hide sem4" >
+                                <td rowspan="5">COMPUTER ORGANISTION</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem4">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem4">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem4">
+                                <td>2022</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem4" >
+                                <td rowspan="4">LINUX ADMINISTRATION</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem4">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem4">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem4" >
+                                <td rowspan="4">SOFTWARE ENGINEERING</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem4">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem4">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+
+                        <!-- SEM5 -->
+                        <tr>
+                            <tr class="hide sem5" >
+                                <td rowspan="4">ENTERPRISE JAVA PROGRAMMING</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem5">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem5">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem5" >
+                                <td rowspan="2">INFORMATION SECURITY</td>
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem5" >
+                                <td rowspan="4">OPERATING SYSTEM</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem5">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem5">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem5" >
+                                <td rowspan="2">PYTHON PROGRAMMING</td>
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem5" >
+                                <td rowspan="2">WEB TECHNOLOGY</td>
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem5" >
+                                <td rowspan="4">OPEN COURSE-BASIC ACCOUNTING</td>
+                                <td>2019</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem5">
+                                <td>2020</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                            <tr class="hide sem5">
+                                <td>2021</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                            </tr>
+                        </tr>
+
+                        <!-- SEM6 -->
+                        <tr>
+                            <tr class="hide sem6" >
+                                <td rowspan="2">DATA COMMUNICATION AND TECHNOLOGY</td>
+                                <td>2022</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem6" >
+                                <td rowspan="2">DESIGN AND ANALYSIS OF ALGORITHMS</td>
+                                <td>2022</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                        </tr>
+                        <tr class="border border-white-2" >
+                            <tr class="hide sem6" >
+                                <td rowspan="2">INTRODUCTION TO COMPILER</td>
+                                <td>2022</td>
+                                <td><a href=""><button class="bg-white text-black text-xs rounded-md px-1">DOWNLOAD</button></a></td>
+                        </tr>
+                        
+                        
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="questionBank.js"></script>
+</body>
+
+</html>

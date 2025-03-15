@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOPCURL</title>
+    <link rel="icon" type="image/x-icon" href="images/logo 12.png">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- font comforta link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <!-- DM sans font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+
+
+    <!-- Raleway font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <!-- social media icon font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+        <!-- nav bar section -->
+
+        <div class="h-screen bg-black ">
+            <div class="bg-[#37287B] h-2/6">
+
+                <!-- navbar section  -->
+
+                <nav class="container mx-auto h-16 flex py-2 px-4 sm:px-10 justify-between">
+                    <div>
+                        <img src="images/mainlogo.png" alt="" class="w-48 ">
+                    </div>
+                    <div class="my-auto ">
+                        <ul class="hidden text-white text-xl space-x-36  lg:flex"
+                            style="font-family: 'DM Sans', sans-serif;">
+                            <li class="hover:text-[#DF484D] "><a href="index.html">Home</a></li>
+                            <li class="hover:text-[#DF484D] "><a href="events.html">Events</a></li>
+                            <li class="hover:text-[#DF484D] "><a href="aboutUs.html">About Us</a></li>
+    
+                        </ul>
+                    </div>
+                    <div class="text-white text-xl my-auto hidden lg:block">
+                        <button class="hover:text-[#DF484D]"><a href="contactUs.html"><u>Contact Us</u></a></button>
+                    </div>
+
+                    <!-- Hamburger menu -->
+             <div class="">
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+
+            <div class="md:hidden">
+                <div id="menu"
+                    class="absolute flex-col items-center hidden self-end  py-8 mt-10 space-y-6 font-bold bg-[#37287B] text-white sm:w-auto sm:self-center top-8 left-6 right-6 drop-shadow-md list-none">
+                    <li class="hover:text-[#DF484D]"><a href="index.html">Home</a></li>
+
+                    <li class="hover:text-[#DF484D] "><a href="events.html">Events</a></li>
+
+                    <li class="hover:text-[#DF484D] "><a href="aboutUs.html">About Us</a></li>
+
+                    <li><button class="hover:text-[#DF484D]"><a href="contactUs.html"><u>Contact Us</u></a></button></li>
+                </div>
+            </div>
+                </nav>
+
+                <!-- contact heading  -->
+
+                <div>
+                    <h1 class="text-white text-5xl font-bold text-center py-10 sm:py-16 tracking-wide">Contact Us</h1>
+                </div>
+            </div>
+
+            <!-- messaging section  -->
+
+            <form action="">
+                <div class="container mx-auto bg-black h-4/6">
+                    <div class="max-w-screen-lg mx-auto">
+                        <div class="mx-auto pt-4 md:pt-8 w-full px-5 md:grid grid-cols-2 gap-x-5">
+    
+                            <!-- name  -->
+    
+                            <div class="col-span-1">
+                                <label for="Name" class="text-xs text-white">NAME</label>
+                                <br>
+                                <input type="text" class="textBox" id="label" required>
+                            </div>
+    
+                            <!-- email  -->
+    
+                            <div class="col-span-1">
+                                <label for="Email" class="text-xs text-white">EMAIL</label>
+                                <br>
+                                <input type="email" class="textBox" required>
+                            </div>
+    
+                            <!-- message box  -->
+    
+                            <div class="col-span-2">
+                                <label for="Message" class="text-xs text-white">MESSAGE</label>
+                                <br>
+                                <textarea name="" id="" cols="30" rows="10" class="textBox h-28" required></textarea>
+                            </div>
+    
+                            <!-- send message and clear button  -->
+    
+                            <div class=" col-span-2">
+                                <button class="bg-white text-stone-900 font-bold rounded py-1 px-3" type="submit"><span class="inline-block">SEND MESSAGE</span></button>
+                                <button class="border rounded py-1 px-3 ml-2 text-white" id="clear">CLEAR</button>
+                            </div>
+    
+                            <!-- social media icons  -->
+    
+                            <div class="pt-4 md:mt-10 space-x-10 flex">
+                                <div>
+                                    <i class="fa fa-twitter-square text-white" style="font-size:36px"></i>
+                                </div>
+                               <div>
+                                <i class="fa fa-facebook-square text-white" style="font-size:36px"></i>
+                               </div>
+                                <div>
+                                    <i class="fa fa-instagram text-white" style="font-size:36px"></i>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="contactUs.js"></script>
+</body>
+</html>

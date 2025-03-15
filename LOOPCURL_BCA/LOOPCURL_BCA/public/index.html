@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOPCURL</title>
+    <link rel="icon" type="image/x-icon" href="images/rnd.png">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- font comforta link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <!-- DM sans font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+
+
+    <!-- Raleway font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body class="max-w-screen-2xl"
+    style="background-image:url(images/lab.jpg); background-position:center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover; overflow-x: hidden ;">
+
+    <!-- nav bar section -->
+
+    <div class="bg-[#37287B] rounded-b-lg max-w-screen-2xl">
+        <nav class="container h-16 flex py-2 px-4 sm:px-10 justify-between">
+            <div>
+                <img src="images/mainlogo.png" alt="" class="w-48 ">
+            </div>
+            <div class="my-auto ">
+                <ul class="hidden text-white text-xl space-x-36  lg:flex" style="font-family: 'DM Sans', sans-serif;">
+                    <li class="hover:text-[#DF484D] "><a href="index.html"><u>Home</u></a></li>
+                    <li class="hover:text-[#DF484D] "><a href="events.html">Events</a></li>
+                    <li class="hover:text-[#DF484D] "><a href="aboutUs.html">About Us</a></li>
+
+                </ul>
+            </div>
+            <div class="text-white text-xl my-auto hidden lg:block">
+                <button class="hover:text-[#DF484D]"><a href="contactUs.html">Contact Us</a></button>
+            </div>
+
+            <!-- Hamburger menu -->
+            <div class="">
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+
+            <div class="md:hidden">
+                <div id="menu"
+                    class="absolute flex-col items-center hidden self-end  py-8 mt-10 space-y-6 font-bold bg-[#37287B] text-white sm:w-auto sm:self-center top-8 left-6 right-6 drop-shadow-md list-none">
+                    <li class="hover:text-[#DF484D]"><a href="index.html"><u>Home</u></a></li>
+
+                    <li class="hover:text-[#DF484D] "><a href="events.html">Events</a></li>
+
+                    <li class="hover:text-[#DF484D] "><a href="aboutUs.html">About Us</a></li>
+
+                    <li><button class="hover:text-[#DF484D]"><a href="contactUs.html">Contact Us</a></button></li>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- main section  -->
+
+    <div class="bg-black md:min-h-screen">
+        <main class="container mx-auto grid grid-cols-1 md:grid-cols-2 sm:mt-12 md:mt-0">
+
+            <!-- quote section  -->
+            <div class="w-full md:order-1 order-2 mb-10 md:mb-0">
+                <div class="w-fit mx-auto xl:mx-40 md:my-20 lg:my-36">
+                    <div class="text-white block text-center">
+                        <h1 class="text-5xl md:text-6xl tracking-wide text-[#8478B9]"
+                            style="font-family: 'Comfortaa', cursive;">
+                            LOOPCURL</h1>
+                        <h2 class="my-1" style="font-family: 'DM Sans', sans-serif;">BCA DEPARTMENT</h2>
+                    </div>
+                    <div class="my-12 text-center">
+                        <p class="text-white ">" An initiative by BCA Student of GASC <br> to facilitate education of
+                            technology <br> by providing quality resources. "
+                        </p>
+                    </div>
+                    <div class="flex space-x-6 justify-center">
+                        <a href=""><img src="images/twitter.png" alt="" class=" w-8 xl:w-8"></a>
+                        <a href="https://instagram.com/loop.curl?igshid=YmMyMTA2M2Y="><img src="images/insta.png" alt="" class=" w-6 xl:w-8"></a>
+                        <a href=""><img src="images/facebook.png" alt="" class=" w-6 xl:w-8"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- image section  -->
+
+            <div class=" w-full order-1 mb-4 sm:px-20 md:p-0 md:order-2 md:my-20 md:mb-0 lg:my-16 lg:p-10 lg:pr-20 ">
+                <img src="images/main.png">
+            </div>
+        </main>
+    </div>
+
+    <!-- notes question bank and events  -->
+
+    <div class="min-h-screen bg-black xl:px-60">
+        <div class="container mx-auto gap-5 md:gap-4 lg:gap-5 md:px-2.5 grid grid-cols-1 mb-10 md:mb-0 md:grid-cols-3">
+
+            <!-- notes  -->
+
+            <a href="notes.html">
+                <div class=" w-60 h-96 mx-auto rounded-xl group hover:bg-[#523FAA] border-[0.25px] border-slate-800">
+                    <div class="w-32 h-32 mx-auto rounded-xl bg-[#523FAA]/25 py-8 mt-12 group-hover:bg-[#836cf0]">
+                        <svg width="70px" height="70px" viewBox="0 0 436 388" fill="" xmlns="http://www.w3.org/2000/svg"
+                            class="group-hover:fill-white mx-auto fill-[#523FAA]">
+                            <path
+                                d="M169.154 25.2196C136.339 8.48971 90.4716 0.294503 29.0643 0.00354884C23.273 -0.080468 17.5953 1.72278 12.7883 5.17283C8.84274 8.02059 5.61294 11.86 3.38302 16.3534C1.15311 20.8467 -0.00861356 25.8564 4.80819e-05 30.9417V308.415C4.80819e-05 327.172 12.4977 341.322 29.0643 341.322C93.6141 341.322 158.364 347.761 197.146 386.904C197.677 387.442 198.344 387.802 199.064 387.939C199.784 388.075 200.526 387.983 201.198 387.673C201.87 387.363 202.441 386.849 202.841 386.195C203.242 385.541 203.453 384.776 203.45 383.995V57.0499C203.451 54.8441 203.009 52.6635 202.154 50.6558C201.298 48.648 200.049 46.8597 198.491 45.4118C189.607 37.3022 179.739 30.5102 169.154 25.2196ZM423.175 5.14374C418.366 1.70227 412.688 -0.0909099 406.899 0.00354884C345.492 0.294503 299.625 8.45091 266.81 25.2196C256.225 30.5006 246.355 37.2793 237.464 45.373C235.909 46.8234 234.663 48.6124 233.809 50.6198C232.955 52.6272 232.514 54.8064 232.514 57.0111V383.976C232.514 384.726 232.721 385.46 233.109 386.086C233.498 386.711 234.051 387.2 234.699 387.491C235.347 387.782 236.061 387.863 236.752 387.722C237.443 387.581 238.079 387.226 238.581 386.701C261.896 361.97 302.813 341.293 406.936 341.302C414.644 341.302 422.037 338.033 427.487 332.212C432.938 326.392 436 318.498 436 310.267V30.9514C436.011 25.856 434.846 20.8363 432.609 16.3353C430.373 11.8344 427.133 7.99075 423.175 5.14374Z" />
+                        </svg>
+                    </div>
+                    <div class="my-10 px-1" style="font-family: 'Raleway', sans-serif;">
+                        <h1 class="text-white text-center">NOTES</h1>
+                        <h2 class="text-white text-center">The notes for all the subjects covered in the BCA course are
+                            arranged
+                            sem wise</h2>
+                    </div>
+                </div>
+            </a>
+
+            <!-- question bank  -->
+
+            <a href="question_bank.html">
+                <div class=" w-60 h-96 mx-auto  rounded-xl group hover:bg-[#00BBF5] border-[0.25px] border-slate-800">
+                    <div class="w-32 h-32 mx-auto rounded-xl bg-[#86d3eb]/25 py-8 mt-12 group-hover:bg-[#86d3eb]">
+                        <svg width="70px" height="70px" viewBox="0 0 436 388" fill="" xmlns="http://www.w3.org/2000/svg"
+                            class="fill-[#00BBF5] group-hover:fill-white mx-auto">
+                            <path
+                                d="M0 48.5C0 21.7113 21.6865 0 48.4444 0H169.556V97C169.556 110.413 180.38 121.25 193.778 121.25H290.667V150.502C234.728 166.34 193.778 217.795 193.778 278.875C193.778 323.662 215.805 363.22 249.565 387.47C247.218 387.773 244.72 388 242.222 388H48.4444C21.6865 388 0 366.251 0 339.5V48.5ZM193.778 97V0L290.667 97H193.778ZM218 278.875C218 218.629 266.823 169.75 327 169.75C387.177 169.75 436 218.629 436 278.875C436 339.121 387.177 388 327 388C266.823 388 218 339.121 218 278.875ZM327 351.625C337.067 351.625 345.167 343.516 345.167 333.438C345.167 323.359 337.067 315.25 327 315.25C316.933 315.25 308.833 323.359 308.833 333.438C308.833 343.516 316.933 351.625 327 351.625ZM278.556 248.562C278.556 255.231 284.006 260.688 290.667 260.688C297.328 260.688 302.778 255.231 302.778 248.562V243.713C302.778 239.696 306.033 236.438 310.044 236.438H340.701C346.529 236.438 351.222 241.136 351.222 246.971C351.222 250.912 349.027 254.473 345.621 256.368L321.399 269.099C317.387 271.221 314.889 275.313 314.889 279.784V291C314.889 297.669 320.339 303.125 327 303.125C333.661 303.125 339.111 297.669 339.111 291V287.135L356.899 277.814C368.329 271.752 375.444 259.248 375.444 246.971C375.444 227.798 359.851 212.188 340.701 212.188H310.044C292.635 212.188 278.556 226.283 278.556 243.713V248.562Z" />
+                        </svg>
+                    </div>
+                    <div class="my-10 px-1" style="font-family: 'Raleway', sans-serif;">
+                        <h1 class="text-white text-center">QUESTION BANK</h1>
+                        <h2 class="text-white text-center">All Bca subject exam question papers from 2015 - 2021 will be
+                            available here</h2>
+                    </div>
+                </div>
+            </a>
+
+            <!-- events  -->
+
+            <a href="events.html">
+                <div class=" w-60 h-96 mx-auto  rounded-xl group hover:bg-[#DF484D] border-[0.25px] border-slate-800">
+                    <div class="w-32 h-32 mx-auto rounded-xl bg-[#DF484D]/25 py-8 mt-12 group-hover:bg-[#ed797d]">
+                        <svg width="70px" height="70px" viewBox="0 0 359 420" xmlns="http://www.w3.org/2000/svg"
+                            class="fill-[#DF484D] group-hover:fill-white mx-auto">
+                            <path
+                                d="M128.214 26.25V52.5H230.786V26.25C230.786 11.7551 242.245 0 256.429 0C270.612 0 282.071 11.7551 282.071 26.25V52.5H320.536C341.771 52.5 359 70.1285 359 91.875V131.25H0V91.875C0 70.1285 17.2208 52.5 38.4643 52.5H76.9286V26.25C76.9286 11.7551 88.3877 0 102.571 0C116.755 0 128.214 11.7551 128.214 26.25ZM0 157.5H359V380.625C359 402.363 341.771 420 320.536 420H38.4643C17.2208 420 0 402.363 0 380.625V157.5ZM51.2857 249.375C51.2857 256.594 57.0233 262.5 64.1071 262.5H89.75C96.8018 262.5 102.571 256.594 102.571 249.375V223.125C102.571 215.906 96.8018 210 89.75 210H64.1071C57.0233 210 51.2857 215.906 51.2857 223.125V249.375ZM153.857 249.375C153.857 256.594 159.627 262.5 166.679 262.5H192.321C199.373 262.5 205.143 256.594 205.143 249.375V223.125C205.143 215.906 199.373 210 192.321 210H166.679C159.627 210 153.857 215.906 153.857 223.125V249.375ZM269.25 210C262.198 210 256.429 215.906 256.429 223.125V249.375C256.429 256.594 262.198 262.5 269.25 262.5H294.893C301.945 262.5 307.714 256.594 307.714 249.375V223.125C307.714 215.906 301.945 210 294.893 210H269.25ZM51.2857 354.375C51.2857 361.594 57.0233 367.5 64.1071 367.5H89.75C96.8018 367.5 102.571 361.594 102.571 354.375V328.125C102.571 320.906 96.8018 315 89.75 315H64.1071C57.0233 315 51.2857 320.906 51.2857 328.125V354.375ZM166.679 315C159.627 315 153.857 320.906 153.857 328.125V354.375C153.857 361.594 159.627 367.5 166.679 367.5H192.321C199.373 367.5 205.143 361.594 205.143 354.375V328.125C205.143 320.906 199.373 315 192.321 315H166.679ZM256.429 354.375C256.429 361.594 262.198 367.5 269.25 367.5H294.893C301.945 367.5 307.714 361.594 307.714 354.375V328.125C307.714 320.906 301.945 315 294.893 315H269.25C262.198 315 256.429 320.906 256.429 328.125V354.375Z" />
+                        </svg>
+                    </div>
+                    <div class="my-10 px-1" style="font-family: 'Raleway', sans-serif;">
+                        <h1 class="text-white text-center">EVENTS</h1>
+                        <h2 class="text-white text-center">Listed here are all the events that Gurudev Bca department
+                            has
+                            done and is going to do.</h2>
+
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="w-screen h-72">
+
+    </div>
+
+
+    <!-- footer section  -->
+
+    <div class="bg-gradient-to-b from-[#181721] to-black h-96 py-8 pl-4">
+        <div class="container mx-auto text-white grid grid-cols-1 sm:grid-cols-3 "
+            style="font-family: 'Raleway', sans-serif;">
+            <div class="">
+                <div class="flex mb-4">
+                    <img src="images/logo.png" alt="" class="w-16 h-16">
+                    <h1 class="font-bold my-auto text-2xl">LOOPCURL</h1>
+                </div>
+                <p class="text-white md:mx-8 text-sm md:text-lg ml-1">" An initiative by BCA Student of GASC <br> to
+                    facilitate education of
+                    technology <br> by providing quality resources. "
+                </p>
+                <div class="flex space-x-6 justify-start mt-4 md:mt-8 md:ml-8">
+                    <a href=""  target="_blank"><img src="images/twitter.png" alt="" class="w-6 xl:w-8"></a>
+                    <a href="https://instagram.com/loop.curl?igshid=YmMyMTA2M2Y="  target="_blank"><img src="images/insta.png" alt="" class="w-6 xl:w-8"></a>
+                    <a href=""  target="_blank"><img src="images/facebook.png" alt="" class="w-6 xl:w-8"></a>
+                </div>
+            </div>
+            <div class="text-left">
+                <h1 class="my-4 font-bold text-lg ">QUICK LINKS</h1>
+                <div>
+                    <ul class="text-white text-sm md:text-lg  grid  md:space-x-0 md:block md:space-y-4 "
+                        style="font-family: 'Raleway', sans-serif;">
+                        <li class="hover:text-[#DF484D] "><a href="index.html">Home</a></li>
+                        <li class="hover:text-[#DF484D] "><a href="events.html">Events</a></li>
+                        <li class="hover:text-[#DF484D] "><a href="aboutUs.html">About Us</a></li>
+                        <li class="hover:text-[#DF484D] "><a href="contactUs.html">Contact Us</a></li>
+                        <li class="hover:text-[#DF484D] "><a href="notes.html">Notes</a></li>
+                        <li class="hover:text-[#DF484D] "><a href="question_bank.html">Question Bank</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-left md:pb-0">
+                <h1 class="text-left font-bold text-lg my-4">CONTACT US</h1>
+                <div class="flex ">
+                    <div>
+                        <h1 class="text-red-600 text-sm md:text-lg">Address :</h1>
+                    </div>
+                    <div class="px-4 text-sm md:text-lg font-light">
+                        <h1>Gurudev Arts & Science
+                            College,<br>P. O. Mathil, Payyannur,<br>Kannur,<br>Kerala-670307,<br>India</h1>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div>
+                        <h1 class="text-red-600 text-sm md:text-lg">Phone :</h1>
+                    </div>
+                    <div class="px-7 md:px-8">
+                        <h1 class="text-sm md:text-lg">9937930665</h1>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div>
+                        <h1 class="text-red-600 text-sm md:text-lg">Email :</h1>
+                    </div>
+                    <div class="">
+                        <h1 class="text-sm md:text-lg lg:px-10 px-0 ">loopcurl@gmail.com</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1 class="text-white text-center py-4 font-extralight text-xs" style="font-family: 'DM Sans', sans-serif;">
+                <img src="images/Copyright All Rights Reserved.png" alt="" class="w-4 inline-block">all copyrights are
+                reserved
+            </h1>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
